@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+* {
+}
+html {
+  font-size: 62.5%;
+}
+/* body style*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial, tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  direction: ltr;
+  background-color: lightskyblue;
+}
+/* form style*/
+form {
+  margin: 5% auto 5% auto;
+  padding: 30px;
+  width: 350px;
+  height: auto;
+  overflow: hidden;
+  background: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px gray;
+}
+/* form heading style*/
+.form_heading {
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+/* form label style*/
+form label {
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+  float: left;
+  clear: both;
+}
+/* form input style*/
+.input_box {
+  margin: 10px 0 15px;
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 2px solid #bbb;
+  border-radius: 20px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* form input container
+for adding icon*/
+.input_container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 0px;
+}
+li {
+  list-style: none;
+}
+/* vector icon style*/
+.img_class {
+  box-sizing: border-box;
+  width: 3rem;
+  position: relative;
+  top: 13.9px;
+  right: 12px;
+  cursor: pointer;
+}
+.forgot,
+.register {
+  margin: 10px;
+  float: left;
+  clear: both;
+  display: inline-block;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.forgot:hover,
+.register:hover {
+  color: darkgray;
+}
+/* text field and password feild glowing 
+ blue when clicking on it*/
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  border-color: cornflowerblue;
+}
+/* button style*/
+button[type="submit"] {
+  padding: 15px 50px;
+  margin: 0 auto 0 auto;
+  width: auto;
+  text-align: center;
+  background: #1abc9c;
+  position: relative;
+  bottom: 60px;
+  float: right;
+  clear: both;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #bbb;
+  border-radius: 50px 50px;
+}
+/* hover mouse on button */
+button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+button[type="submit"]:active {
+  opacity: 0.4;
+}

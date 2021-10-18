@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#nav_bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  max-width: 200%;
+}
+.navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, rgb(148, 80, 165), purple);
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+  align-items: left;
+}
+
+.navbar-nav li a {
+  color: white !important;
+  font-weight: 600;
+  float: right;
+  text-align: right;
+}
+.navbar-toggler-icon {
+  color: white !important;
+  font-size: 20px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+/*-------------banner-----------*/
+
+.banner {
+  background-image: linear-gradient(to right, rgb(148, 80, 165), purple);
+  color: white;
+  padding-top: 0;
+}
+
+.about {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.img-fluid {
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.bottom-img {
+  width: 100%;
+}
+
+/*---------------Service---------------*/
+
+#service {
+  padding: 80px 0;
+}
+.service_img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.services {
+  padding: 20px;
+}
+
+.para_text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.services h4 {
+  padding: 5px;
+  margin: 25px;
+  text-transform: uppercase;
+}
+.title {
+  font-size: 26px;
+}
+.title::before {
+  content: " ";
+  background-color: violet;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(60px);
+}
+
+.title::after {
+  content: " ";
+  background-color: violet;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(21.59px);
+}
+#service .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, rgb(148, 80, 165), purple);
+}
+
+/*----------------About us-----------------*/
+
+#about_us {
+  background: rgb(154, 210, 214);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.about_title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 8%;
+}
+#about_us ul li {
+  margin: 10px;
+}
+#about_us ul {
+  margin-left: 20px;
+}
+
+/*--------------------Testimonial Section---------------------*/
+#Testimonials {
+  margin: 100px 0;
+}
+
+.testimonials {
+  border-left: 4px solid #7b1798;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.testimonials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+
+/*-------------------Social media section----------------------*/
+
+#Social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+#Social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}

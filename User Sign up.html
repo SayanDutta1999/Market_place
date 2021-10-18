@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Required meta tags -->
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="./user Sign up.css" rel="stylesheet" />
+    <title>usr sign</title>
+  </head>
+  <body>
+    <!--MAIN DIV-->
+    
+    <div class="container justify-content-center">
+
+      <form method="POST" name="signformname" onsubmit="return  validateForm()"> 
+        <!--FORM HEADING-->
+        <h1 class="form_heading">Sign Up</h1>
+        <!--FORM LABEL-->
+        <label for="fullname">Enter Full Name</label><br />
+        <!--INPUT DIV START-->
+        <div class="input_container form-group d-flex">
+          <li>
+            <img
+              class="img_class"
+              src="https://img.icons8.com/ios/50/000000/user--v3.png"
+            />
+          </li>
+          <input
+            class="input_box"
+            type="text"
+            placeholder="Full Name"
+            id="fullname"
+            name="fname"
+            required
+            autofocus
+          />
+        </div>
+        <!--INPUT DIV END-->
+
+        <!----------------------------->
+
+        <!--FORM LABEL-->
+        <label for="contact1">Enter Mobile Number </label><br />
+        <!--INPUT DIV START-->
+        <div class="input_container form-group d-flex">
+          <li>
+            <img
+              class="img_class"
+              src="https://img.icons8.com/ios/50/000000/phone.png"
+            />
+          </li>
+          <input
+            class="input_box"
+            type="tel"
+            placeholder="+91"
+            id="contact1"
+            name="cont1"
+            required
+          />
+        </div>
+        <!--INPUT DIV END-->
+
+        <!----------------------------->
+
+        <!--FORM LABEL-->
+        <label for="contact2">Enter Email Address</label><br />
+        <!--INPUT DIV START-->
+        <div class="input_container form-group d-flex">
+          <li>
+            <img
+              class="img_class"
+              src="https://img.icons8.com/wired/64/000000/email.png"
+            />
+          </li>
+          <input
+            class="input_box"
+            type="email"
+            placeholder="Email"
+            id="contact2"
+            name="cont2"
+            required
+          />
+        </div>
+        <!--INPUT DIV END-->
+
+        <!----------------------------->
+
+        <!--FORM LABEL-->
+        <label for="PWD">Create Password</label><br />
+        <!--INPUT DIV START-->
+        <div class="input_container form-group d-flex">
+          <li>
+            <img
+              class="img_class"
+              src="https://img.icons8.com/ios/50/000000/password.png"
+            />
+          </li>
+          <input
+            class="input_box"
+            type="password"
+            placeholder="Enter Password"
+            id="PWD"
+            name="pwd"
+            required
+          />
+        </div>
+        <!--INPUT DIV END-->
+        <!--FORM LABEL-->
+        <label for="CPWD">Confirm Password</label><br />
+        <!--INPUT DIV START-->
+        <div class="input_container form-group d-flex">
+          <li>
+            <img 
+              class="img_class"
+              src="https://img.icons8.com/windows/32/000000/reviewer-female.png"
+            />
+          </li>
+          <input
+            class="input_box"
+            type="password"
+            placeholder="Confirm Password"
+            id="CPWD"
+            name="cpwd"
+            required
+          />
+        </div>
+        <!--INPUT DIV END-->
+        <!-- <a class="forgot" href="#">Forgot Password?</a> -->
+        
+        <!--Sign up button-->
+        <div class="text-center">
+          <button type="submit"  class="btn">Signup</button>
+      </div>
+      <a class="register" href="./User Login.html">Have an account?</a> 
+      </form>
+    </div>
+  
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/MARKET_PLACE/usersignup.js"></script>
+  </body>
+  </body>
+</html>
